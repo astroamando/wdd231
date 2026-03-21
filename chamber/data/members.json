@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Red Butte Books",
+    "address": "123 Foothill Drive, Salt Lake City, UT 84108",
+    "phone": "(801) 555-0101",
+    "website": "https://example.com/redbuttebooks",
+    "image": "red-butte-books.png",
+    "membership": 3,
+    "description": "Independent bookstore with local author events and curated regional titles."
+  },
+  {
+    "name": "Wasatch Web Studio",
+    "address": "456 State Street, Salt Lake City, UT 84111",
+    "phone": "(801) 555-0102",
+    "website": "https://example.com/wasatchwebstudio",
+    "image": "wasatch-web-studio.png",
+    "membership": 2,
+    "description": "Web design and digital marketing services for local small businesses."
+  },
+  {
+    "name": "Canyon Floral Co.",
+    "address": "789 Highland Drive, Salt Lake City, UT 84106",
+    "phone": "(801) 555-0103",
+    "website": "https://example.com/canyonfloral",
+    "image": "canyon-floral.png",
+    "membership": 1,
+    "description": "Fresh floral arrangements for weddings, events, and everyday gifts."
+  },
+  {
+    "name": "Beehive Bicycle Repair",
+    "address": "222 South 700 East, Salt Lake City, UT 84102",
+    "phone": "(801) 555-0104",
+    "website": "https://example.com/beehivebicycle",
+    "image": "beehive-bicycle.png",
+    "membership": 2,
+    "description": "Bike repair, tune-ups, and commuter gear in the heart of the city."
+  },
+  {
+    "name": "Great Basin Bakery",
+    "address": "91 West Temple, Salt Lake City, UT 84101",
+    "phone": "(801) 555-0105",
+    "website": "https://example.com/greatbasinbakery",
+    "image": "great-basin-bakery.png",
+    "membership": 3,
+    "description": "Artisan breads, pastries, and café favorites made fresh daily."
+  },
+  {
+    "name": "Temple View Accounting",
+    "address": "340 North Main Street, Salt Lake City, UT 84103",
+    "phone": "(801) 555-0106",
+    "website": "https://example.com/templeviewaccounting",
+    "image": "temple-view-accounting.png",
+    "membership": 1,
+    "description": "Accounting, payroll, and tax support for startups and established businesses."
+  },
+  {
+    "name": "Liberty Pet Care",
+    "address": "615 East 900 South, Salt Lake City, UT 84105",
+    "phone": "(801) 555-0107",
+    "website": "https://example.com/libertypetcare",
+    "image": "liberty-pet-care.png",
+    "membership": 2,
+    "description": "Pet grooming, boarding, and wellness products for dogs and cats."
+  }
+]

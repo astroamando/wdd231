@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1b4965;
+  --secondary-color: #cae9ff;
+  --accent-color: #5fa8d3;
+  --background-color: #f8fbff;
+  --text-color: #1f2933;
+  --card-background: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+header,
+main,
+footer {
+  padding: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand img {
+  width: 48px;
+  height: 48px;
+}
+
+.brand span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#menu-button {
+  margin-top: 1rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+#menu-button::before {
+  content: "☰ Menu";
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+nav.open {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: var(--accent-color);
+  color: #06263a;
+}
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.view-controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.view-controls button:hover {
+  background-color: var(--secondary-color);
+}
+
+#members {
+    min-height: 400px;
+}
+
+#members.grid-view {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#members.grid-view section {
+  background-color: var(--card-background);
+  border: 1px solid #d6dee6;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+#members.grid-view h2 {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: var(--secondary-color);
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
