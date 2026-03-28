@@ -191,3 +191,94 @@ footer a {
   border-radius: 10px;
   padding: 1rem;
 }
+
+.join-layout {
+  display: grid;
+  gap: 2rem;
+}
+
+.join-form {
+  display: grid;
+  gap: 1rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.join-form label {
+  display: grid;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  padding: 0.75rem;
+  font: inherit;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+
+.submit-btn {
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.membership-cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.member-card {
+  background: #f7f7f7;
+  border-left: 6px solid #005f99;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  transform: translateY(18px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.card-1 { animation-delay: 0.1s; }
+.card-2 { animation-delay: 0.25s; }
+.card-3 { animation-delay: 0.4s; }
+.card-4 { animation-delay: 0.55s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-link {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 400px;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.summary-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}

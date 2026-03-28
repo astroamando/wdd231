@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Lake City Chamber Directory</title>
+    <meta name="description" content="Business directory for the Salt Lake City Chamber of Commerce.">
+    <meta name="author" content="Amando Evangelista Santos Filho">
+
+    <meta property="og:title" content="Salt Lake City Chamber Directory">
+    <meta property="og:description" content="Find local chamber member businesses and organizations.">
+    <meta property="og:image" content="https://astroamando.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://astroamando.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/join.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="brand">
+        <img src="images/logo.png" alt="Salt Lake City Chamber logo" width="60" height="60">
+        <span>Salt Lake City Chamber of Commerce</span>
+        </div>
+
+    <button id="menu-button" aria-label="Open navigation menu"></button>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+    </nav>
+  </header>
+
+  <main class="join-page">
+    <h1>Join the Chamber</h1>
+
+    <div class="join-layout">
+      <section class="form-section">
+        <form method="get" action="thankyou.html" class="join-form">
+          <label>
+            First Name
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              title="Enter your first name"
+              autocomplete="given-name"
+              required>
+          </label>
+
+          <label>
+            Last Name
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              title="Enter your last name"
+              autocomplete="family-name"
+              required>
+          </label>
+
+          <label>
+            Organizational Title
+            <input
+              type="text"
+              name="orgTitle"
+              id="orgTitle"
+              title="Enter your organizational title using only letters, spaces, and hyphens, at least 7 characters"
+              autocomplete="organization-title"
+              pattern="[A-Za-z\s-]{7,}"
+              placeholder="Marketing Lead">
+          </label>
+
+          <label>
+            Email Address
+            <input
+              type="email"
+              name="email"
+              id="email"
+              title="Enter a valid email address"
+              autocomplete="email"
+              placeholder="example@email.com"
+              required>
+          </label>
+
+          <label>
+            Mobile Phone Number
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              title="Enter your mobile phone number"
+              autocomplete="tel"
+              required>
+          </label>
+
+          <label>
+            Business / Organization Name
+            <input
+              type="text"
+              name="organization"
+              id="organization"
+              title="Enter the business or organization name"
+              autocomplete="organization"
+              required>
+          </label>
+
+          <label>
+            Membership Level
+            <select name="membership" id="membership" title="Select a membership level" required>
+              <option value="" disabled selected>Select a membership level</option>
+              <option value="np">NP Membership</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+
+          <label>
+            Business / Organization Description
+            <textarea
+              name="description"
+              id="description"
+              title="Describe your business or organization"
+              rows="5"></textarea>
+          </label>
+
+          <input type="hidden" name="timestamp" id="timestamp">
+
+          <input type="submit" value="Submit Membership Application" class="submit-btn">
+        </form>
+      </section>
+
+      <aside class="membership-cards">
+        <h2>Membership Levels</h2>
+
+        <article class="member-card card-1">
+          <h3>NP Membership</h3>
+          <p>For nonprofit organizations. No membership fee.</p>
+          <button type="button" class="modal-link" data-dialog="npModal">Learn More</button>
+        </article>
+
+        <article class="member-card card-2">
+          <h3>Bronze Membership</h3>
+          <p>Entry-level membership for growing businesses.</p>
+          <button type="button" class="modal-link" data-dialog="bronzeModal">Learn More</button>
+        </article>
+
+        <article class="member-card card-3">
+          <h3>Silver Membership</h3>
+          <p>More exposure, more event value, and more perks.</p>
+          <button type="button" class="modal-link" data-dialog="silverModal">Learn More</button>
+        </article>
+
+        <article class="member-card card-4">
+          <h3>Gold Membership</h3>
+          <p>Premium visibility and top-tier chamber benefits.</p>
+          <button type="button" class="modal-link" data-dialog="goldModal">Learn More</button>
+        </article>
+      </aside>
+    </div>
+
+    <dialog id="npModal">
+      <h2>NP Membership Benefits</h2>
+      <ul>
+        <li>No membership fee</li>
+        <li>Access to chamber networking events</li>
+        <li>Community listing in member directory</li>
+      </ul>
+      <button type="button" class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="bronzeModal">
+      <h2>Bronze Membership Benefits</h2>
+      <ul>
+        <li>Directory listing</li>
+        <li>Access to trainings and workshops</li>
+        <li>Discounted event pricing</li>
+      </ul>
+      <button type="button" class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="silverModal">
+      <h2>Silver Membership Benefits</h2>
+      <ul>
+        <li>All Bronze benefits</li>
+        <li>Featured advertising opportunities</li>
+        <li>Spotlight placement on home page</li>
+        <li>Greater event discounts</li>
+      </ul>
+      <button type="button" class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="goldModal">
+      <h2>Gold Membership Benefits</h2>
+      <ul>
+        <li>All Silver benefits</li>
+        <li>Premium homepage spotlight</li>
+        <li>Priority sponsorship opportunities</li>
+        <li>Exclusive chamber recognition</li>
+      </ul>
+      <button type="button" class="close-modal">Close</button>
+    </dialog>
+  </main>
+
+    <footer>
+        <div>
+            <p><strong>Salt Lake City Chamber of Commerce</strong></p>
+            <p>123 Main Street, Salt Lake City, UT</p>
+            <p>info@slcchamber.org</p>
+            <p>(801) 555-1234</p>
+        </div>
+
+    <div class="social">
+        <a href="#"><img src="images/youtube.webp" alt="Visit our YouTube channel"></a>
+        <a href="#"><img src="images/twitter.webp" alt="Visit our Twitter page"></a>
+        <a href="#"><img src="images/linkedin.webp" alt="Visit our LinkedIn profile"></a>
+    </div>
+
+    <div>
+        <p>WDD 231 | Amando Santos</p>
+        <p>&copy; <span id="currentyear"></span> Salt Lake City Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
