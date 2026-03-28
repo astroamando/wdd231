@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Lake City Chamber Directory</title>
+    <meta name="description" content="Business directory for the Salt Lake City Chamber of Commerce.">
+    <meta name="author" content="Amando Evangelista Santos Filho">
+
+    <meta property="og:title" content="Salt Lake City Chamber Directory">
+    <meta property="og:description" content="Find local chamber member businesses and organizations.">
+    <meta property="og:image" content="https://astroamando.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://astroamando.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/index.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="brand">
+        <img src="images/logo.png" alt="Salt Lake City Chamber logo" width="60" height="60">
+        <span>Salt Lake City Chamber of Commerce</span>
+        </div>
+
+    <button id="menu-button" aria-label="Open navigation menu"></button>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+        <img src="images/hero.jpg" alt="Downtown Salt Lake City skyline" width="1200" height="600">
+        <div class="hero-content">
+            <h1>Salt Lake City Chamber of Commerce</h1>
+            <a class="cta-button" href="join.html">Join the Chamber</a>
+        </div>
+    </section>
+
+    <section class="home-grid">
+        <section class="card events">
+            <h2>Current Events</h2>
+            <p>Spring Business Networking Breakfast - April 12</p>
+            <p>Downtown Small Business Workshop - April 18</p>
+            <p>Community Market Expo - April 27</p>
+        </section>
+
+        <section class="card weather">
+            <h2>Current Weather</h2>
+            <div id="current-weather"></div>
+        </section>
+
+        <section class="card forecast">
+            <h2>3-Day Forecast</h2>
+            <div id="forecast"></div>
+        </section>
+    </section>
+
+    <section class="spotlights">
+        <h2>Member Spotlights</h2>
+        <div id="spotlight-container"></div>
+    </section>
+  </main>
+
+    <footer>
+        <div>
+            <p><strong>Salt Lake City Chamber of Commerce</strong></p>
+            <p>123 Main Street, Salt Lake City, UT</p>
+            <p>info@slcchamber.org</p>
+            <p>(801) 555-1234</p>
+        </div>
+
+    <div class="social">
+        <a href="#"><img src="images/youtube.svg" alt="Visit our YouTube channel"></a>
+        <a href="#"><img src="images/twitter.svg" alt="Visit our Twitter page"></a>
+        <a href="#"><img src="images/linkedin.svg" alt="Visit our LinkedIn profile"></a>
+    </div>
+
+    <div>
+        <p>WDD 231 | Amando Santos</p>
+        <p>&copy; <span id="currentyear"></span> Salt Lake City Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
