@@ -145,6 +145,11 @@ footer a {
   margin: 1rem 0;
 }
 
+.social img {
+  width: 50px;
+  height: auto;
+}
+
 .hero {
   position: relative;
 }
