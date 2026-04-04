@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Lake City Chamber | Discover</title>
+    <meta name="description" content="Discover the highlights, attractions, and local features of our chamber area.">
+    <meta name="author" content="Amando Evangelista Santos Filho">
+
+    <meta property="og:title" content="Salt Lake City | Discover">
+    <meta property="og:description" content="Discover the highlights, attractions, and local features of our chamber area.">
+    <meta property="og:image" content="https://astroamando.github.io/wdd231/chamber/images/logo.webp">
+    <meta property="og:url" content="https://astroamando.github.io/wdd231/chamber/directory.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/discover.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <div class="brand">
+        <img src="images/logo.png" alt="Salt Lake City Chamber logo" width="60" height="60">
+        <span>Salt Lake City Chamber of Commerce</span>
+        </div>
+
+    <button id="menu-button" aria-label="Open navigation menu"></button>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="join.html">Join</a>
+        <a href="discover.html">Discover</a>
+    </nav>
+  </header>
+
+  <main class="discover-page">
+    <h1>Discover Our Area</h1>
+
+    <section class="visit-message" id="visitMessage"></section>
+
+    <section class="discover-grid" id="discoverGrid"></section>
+  </main>
+
+    <footer>
+        <div>
+            <p><strong>Salt Lake City Chamber of Commerce</strong></p>
+            <p>123 Main Street, Salt Lake City, UT</p>
+            <p>info@slcchamber.org</p>
+            <p>(801) 555-1234</p>
+        </div>
+
+    <div class="social">
+        <a href="#"><img src="images/youtube.webp" alt="Visit our YouTube channel"></a>
+        <a href="#"><img src="images/twitter.webp" alt="Visit our Twitter page"></a>
+        <a href="#"><img src="images/linkedin.webp" alt="Visit our LinkedIn profile"></a>
+    </div>
+
+    <div>
+        <p>WDD 231 | Amando Santos</p>
+        <p>&copy; <span id="currentyear"></span> Salt Lake City Chamber of Commerce</p>
+        <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>

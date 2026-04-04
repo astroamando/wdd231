@@ -282,3 +282,69 @@ dialog::backdrop {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
 }
+
+.discover-page {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.visit-message {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem;
+  background-color: #eef5ff;
+  border-left: 5px solid #1f4f82;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.discover-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.discover-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.discover-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.discover-card figure {
+  margin: 0 0 1rem 0;
+}
+
+.discover-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+.discover-card address {
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background-color: #1f4f82;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.learn-more:hover,
+.learn-more:focus {
+  background-color: #16395f;
+}
