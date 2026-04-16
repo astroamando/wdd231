@@ -1,0 +1,167 @@
+[
+  {
+    "name": "F-22 Raptor",
+    "type": "Fighter",
+    "manufacturer": "Lockheed Martin",
+    "speed": "1500 mph",
+    "range": "1840 miles",
+    "firstFlight": "1997",
+    "role": "Stealth air superiority fighter",
+    "image": "images/f22.webp",
+    "description": "A fifth-generation stealth fighter known for agility and advanced avionics."
+  },
+  {
+    "name": "F-35 Lightning II",
+    "type": "Multirole",
+    "manufacturer": "Lockheed Martin",
+    "speed": "1200 mph",
+    "range": "1380 miles",
+    "firstFlight": "2006",
+    "role": "Multirole stealth fighter",
+    "image": "images/f35.webp",
+    "description": "A versatile stealth aircraft designed for multiple combat roles."
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "type": "Fighter",
+    "manufacturer": "General Dynamics",
+    "speed": "1500 mph",
+    "range": "2622 miles",
+    "firstFlight": "1974",
+    "role": "Multirole fighter",
+    "image": "images/f16.webp",
+    "description": "A lightweight and highly maneuverable fighter used worldwide."
+  },
+  {
+    "name": "F-15 Eagle",
+    "type": "Fighter",
+    "manufacturer": "McDonnell Douglas",
+    "speed": "1650 mph",
+    "range": "3000 miles",
+    "firstFlight": "1972",
+    "role": "Air superiority fighter",
+    "image": "images/f15.webp",
+    "description": "A powerful fighter aircraft designed for air dominance."
+  },
+  {
+    "name": "F/A-18 Super Hornet",
+    "type": "Multirole",
+    "manufacturer": "Boeing",
+    "speed": "1190 mph",
+    "range": "1275 miles",
+    "firstFlight": "1995",
+    "role": "Carrier-based multirole fighter",
+    "image": "images/fa18.webp",
+    "description": "A versatile aircraft used by the U.S. Navy for various missions."
+  },
+  {
+    "name": "B-2 Spirit",
+    "type": "Bomber",
+    "manufacturer": "Northrop Grumman",
+    "speed": "630 mph",
+    "range": "6900 miles",
+    "firstFlight": "1989",
+    "role": "Stealth strategic bomber",
+    "image": "images/b2.webp",
+    "description": "A stealth bomber capable of penetrating advanced defenses."
+  },
+  {
+    "name": "B-52 Stratofortress",
+    "type": "Bomber",
+    "manufacturer": "Boeing",
+    "speed": "650 mph",
+    "range": "8800 miles",
+    "firstFlight": "1952",
+    "role": "Long-range bomber",
+    "image": "images/b52.webp",
+    "description": "A long-serving bomber known for its range and payload capacity."
+  },
+  {
+    "name": "B-1B Lancer",
+    "type": "Bomber",
+    "manufacturer": "Rockwell",
+    "speed": "900 mph",
+    "range": "7400 miles",
+    "firstFlight": "1974",
+    "role": "Supersonic bomber",
+    "image": "images/b1b.webp",
+    "description": "A variable-sweep wing bomber designed for high-speed missions."
+  },
+  {
+    "name": "C-130 Hercules",
+    "type": "Transport",
+    "manufacturer": "Lockheed Martin",
+    "speed": "368 mph",
+    "range": "2361 miles",
+    "firstFlight": "1954",
+    "role": "Military transport aircraft",
+    "image": "images/c130.webp",
+    "description": "A reliable aircraft used for cargo, troop transport, and aid missions."
+  },
+  {
+    "name": "C-17 Globemaster III",
+    "type": "Transport",
+    "manufacturer": "Boeing",
+    "speed": "590 mph",
+    "range": "2800 miles",
+    "firstFlight": "1991",
+    "role": "Strategic airlifter",
+    "image": "images/c17.webp",
+    "description": "A large transport aircraft used for rapid global mobility."
+  },
+  {
+    "name": "KC-135 Stratotanker",
+    "type": "Transport",
+    "manufacturer": "Boeing",
+    "speed": "530 mph",
+    "range": "1500 miles",
+    "firstFlight": "1956",
+    "role": "Aerial refueling aircraft",
+    "image": "images/kc135.webp",
+    "description": "An aircraft used to refuel other planes mid-air."
+  },
+  {
+    "name": "V-22 Osprey",
+    "type": "Transport",
+    "manufacturer": "Bell Boeing",
+    "speed": "316 mph",
+    "range": "1011 miles",
+    "firstFlight": "1989",
+    "role": "Tiltrotor transport aircraft",
+    "image": "images/v22.webp",
+    "description": "A unique aircraft that can take off like a helicopter and fly like a plane."
+  },
+  {
+    "name": "SR-71 Blackbird",
+    "type": "Recon",
+    "manufacturer": "Lockheed",
+    "speed": "2200 mph",
+    "range": "2900 miles",
+    "firstFlight": "1964",
+    "role": "High-speed reconnaissance aircraft",
+    "image": "images/sr71.webp",
+    "description": "One of the fastest aircraft ever built for reconnaissance missions."
+  },
+  {
+    "name": "U-2 Dragon Lady",
+    "type": "Recon",
+    "manufacturer": "Lockheed",
+    "speed": "500 mph",
+    "range": "6400 miles",
+    "firstFlight": "1955",
+    "role": "High-altitude reconnaissance aircraft",
+    "image": "images/u2.webp",
+    "description": "A high-altitude aircraft used for surveillance and intelligence gathering."
+  },
+  {
+    "name": "RQ-4 Global Hawk",
+    "type": "Recon",
+    "manufacturer": "Northrop Grumman",
+    "speed": "391 mph",
+    "range": "14000 miles",
+    "firstFlight": "1998",
+    "role": "Unmanned reconnaissance drone",
+    "image": "images/rq4.webp",
+    "description": "A long-endurance drone used for surveillance missions."
+  }
+]

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aircraft Spotlight | Form</title>
+  <meta name="description" content="Submit your favorite aircraft and aviation interests through the Aircraft Spotlight form.">
+  <meta name="author" content="Amando Santos">
+
+  <meta property="og:title" content="Aircraft Spotlight">
+  <meta property="og:description" content="Submit your favorite aircraft and aviation interests through the Aircraft Spotlight form.">
+  <meta property="og:image" content="https://astroamando.github.io/wdd231/final/images/logo.webp">
+  <meta property="og:url" content="https://astroamando.github.io/wdd231/final/index.html">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script type="module" src="scripts/compare.mjs"></script>
+</head>
+<body>
+  <header>
+    <div class="site-branding">
+      <img src="images/logo.webp" alt="Aircraft Spotlight logo" width="60" height="60">
+      <span>Aircraft Spotlight</span>
+    </div>
+
+    <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">&#9776;</button>
+
+    <nav id="site-nav">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="compare.html">Compare</a></li>
+        <li><a href="form.html" class="active">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Share Your Favorite Aircraft</h1>
+
+  <section class="page-intro">
+    <h2>Aircraft Interest Form</h2>
+    <p>
+      Tell us about your favorite aircraft and what interests you most about aviation.
+    </p>
+  </section>
+
+  <form method="get" action="thankyou.html" class="aircraft-form">
+    <label for="first">First Name
+      <input type="text" id="first" name="first" title="Enter your first name" required autocomplete="given-name">
+    </label>
+
+    <label for="last">Last Name
+      <input type="text" id="last" name="last" title="Enter your last name" required autocomplete="family-name">
+    </label>
+
+    <label for="email">Email
+      <input type="email" id="email" name="email" title="Enter your email address" required autocomplete="email">
+    </label>
+
+    <label for="favorite">Favorite Aircraft
+      <input type="text" id="favorite" name="favorite" title="Enter your favorite aircraft" required>
+    </label>
+
+    <label for="type">Favorite Aircraft Type
+      <select id="type" name="type" required>
+        <option value="" disabled selected>Select a type</option>
+        <option value="Fighter">Fighter</option>
+        <option value="Multirole">Multirole</option>
+        <option value="Bomber">Bomber</option>
+        <option value="Transport">Transport</option>
+        <option value="Recon">Recon</option>
+      </select>
+    </label>
+
+    <label for="comments">Why do you like this aircraft?
+      <textarea id="comments" name="comments" rows="5" title="Share why you like this aircraft"></textarea>
+    </label>
+
+    <input type="submit" value="Submit Favorite">
+  </form>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Amando Santos | Utah</p>
+    <p id="lastModified"></p>
+    <p><a href="attributions.html">Attributions</a></p>
+  </footer>
+</body>
+</html>

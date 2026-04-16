@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aircraft Spotlight | Home</title>
+  <meta name="description" content="Explore aircraft by type, specifications, and aviation highlights with the Aircraft Spotlight website.">
+  <meta name="author" content="Amando Santos">
+
+  <meta property="og:title" content="Aircraft Spotlight">
+  <meta property="og:description" content="Explore by aircraft type, specifications, and aviation highlights.">
+  <meta property="og:image" content="https://astroamando.github.io/wdd231/final/images/logo.webp">
+  <meta property="og:url" content="https://astroamando.github.io/wdd231/final/index.html">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="site-branding">
+      <img src="images/logo.webp" alt="Aircraft Spotlight logo" width="60" height="60">
+      <span>Aircraft Spotlight</span>
+    </div>
+
+    <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">&#9776;</button>
+
+    <nav id="site-nav">
+      <ul class="navigation">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="compare.html">Compare</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Aircraft Spotlight</h1>
+
+    <section class="hero">
+    <picture>
+      <img src="images/hero-aircraft.webp" alt="Formation of F-16s in flight" width="1200" height="600" loading="lazy">
+    </picture>
+    <div class="hero-text">
+      <h2>Explore the World of Aircraft</h2>
+      <p>
+        Aircraft Spotlight is a beginner-friendly site that highlights a variety of aircraft, their
+        features, and the roles they play in aviation. Browse the gallery, compare aircraft types,
+        and learn more about the machines that connect the world.
+      </p>
+      <div class="hero-buttons">
+        <a href="gallery.html" class="button-link">Browse Gallery</a>
+        <a href="compare.html" class="button-link">Compare Aircraft</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro">
+    <h2>About This Site</h2>
+    <p>
+      This website introduces aircraft in a clear and organized way. It includes a gallery of aircraft,
+      a comparison page for exploring differences, and a form where visitors can share their favorite aircraft.
+      The goal is to make aviation information visually engaging and easy to understand.
+    </p>
+  </section>
+
+  <section class="highlights">
+    <h2>Featured Aircraft Categories</h2>
+    <div class="card-grid">
+      <article class="info-card">
+        <h3>Commercial Aircraft</h3>
+        <p>
+          Commercial aircraft are designed to transport passengers and cargo efficiently over short
+          and long distances.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>Military Aircraft</h3>
+        <p>
+          Military aircraft are used for defense, transport, training, surveillance, and tactical missions.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>Private Aircraft</h3>
+        <p>
+          Private aircraft are often used for personal travel, business flights, training, and recreation.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <h2>Ready to Explore More?</h2>
+    <p>
+      Visit the gallery to see aircraft details or head to the compare page to sort aircraft by type.
+    </p>
+    <a href="gallery.html" class="button-link">View Aircraft Gallery</a>
+  </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Amando Santos | Utah</p>
+    <p id="lastModified"></p>
+    <p><a href="attributions.html">Attributions</a></p>
+  </footer>
+</body>
+</html>

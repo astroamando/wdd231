@@ -1,0 +1,79 @@
+@media screen and (min-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  #site-nav {
+    display: block;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .navigation li a {
+    padding: 0.5rem 1rem;
+  }
+}
+
+/*homepage styling*/
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    align-items: stretch;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-buttons {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* gallery styling */
+
+@media screen and (min-width: 768px) {
+  .aircraft-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aircraft-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*compare styling*/
+@media screen and (min-width: 768px) {
+  .compare-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .compare-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

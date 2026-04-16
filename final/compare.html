@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aircraft Spotlight | Compare</title>
+  <meta name="description" content="Compare aircraft types, capabilities, and aviation details on the Aircraft Spotlight compare page.">
+  <meta name="author" content="Amando Santos">
+
+  <meta property="og:title" content="Aircraft Spotlight">
+  <meta property="og:description" content="Compare aircraft types, capabilities, and aviation details on the Aircraft Spotlight compare page.">
+  <meta property="og:image" content="https://astroamando.github.io/wdd231/final/images/logo.webp">
+  <meta property="og:url" content="https://astroamando.github.io/wdd231/final/index.html">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script type="module" src="scripts/compare.mjs"></script>
+</head>
+<body>
+  <header>
+    <div class="site-branding">
+      <img src="images/logo.webp" alt="Aircraft Spotlight logo" width="60" height="60">
+      <span>Compare Aircraft</span>
+    </div>
+
+    <button id="menu-button" aria-label="Open navigation menu" aria-expanded="false">&#9776;</button>
+
+    <nav id="site-nav">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="compare.html" class="active">Compare</a></li>
+        <li><a href="form.html">Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Compare Aircraft</h1>
+
+  <section class="page-intro">
+    <h2>Aircraft Comparison</h2>
+    <p>
+      Compare American military aircraft by category. Your selected filter will be saved
+      so the page remembers your preference the next time you visit.
+    </p>
+  </section>
+
+  <section class="gallery-controls">
+    <label for="compare-filter">Choose an aircraft type:</label>
+    <select id="compare-filter" name="compare-filter">
+      <option value="all">All Types</option>
+      <option value="Fighter">Fighter</option>
+      <option value="Multirole">Multirole</option>
+      <option value="Bomber">Bomber</option>
+      <option value="Transport">Transport</option>
+      <option value="Recon">Recon</option>
+    </select>
+  </section>
+
+  <section id="compare-results" class="compare-grid"></section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Amando Santos | Utah</p>
+    <p id="lastModified"></p>
+    <p><a href="attributions.html">Attributions</a></p>
+  </footer>
+</body>
+</html>
